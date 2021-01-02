@@ -4,7 +4,7 @@ require("dotenv").config();
 var app = express();
 var PORT = process.env.PORT || 8080;
 const cors = require('cors')
-var allRoutes = require('./controllers');
+var allRoutes = require('./controllers/menuRoutes');
 
 
 var db = require('./models');
